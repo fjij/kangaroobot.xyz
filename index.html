@@ -5,14 +5,31 @@
         <meta content="text/html"; charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script>
+            function toggleNavContent(ham) {
+                let bar = document.getElementById("nav-bar");
+                let content = document.getElementById("nav-content");
+                bar.classList.toggle("nav-bar-open");
+                content.classList.toggle("nav-content-open");
+                ham.classList.toggle("ham-change");
+            }
+        </script>
     </head>
     <body>
-        <div class="nav-bar">
-            <a class="active" href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#commands">Commands</a>
-            <a href="https://discord.gg/3Pxarrq4NH" id="support">Support</a>
+        <div class="nav-bar" id="nav-bar">
+            <div onclick="toggleNavContent(this)" class="ham-container">
+              <div class="ham-bar1"></div>
+              <div class="ham-bar2"></div>
+              <div class="ham-bar3"></div>
+            </div>
+            <div class="nav-content" id="nav-content">
+              <a class="active" href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#commands">Commands</a>
+              <a href="https://discord.gg/3Pxarrq4NH" id="support">Support</a>
+            </div>
         </div>
         <div id="home" class="home">
             <div class="intro">
@@ -20,7 +37,9 @@
                 <h2 class="subtitle">L2 Ethereum in your server</h2>
             </div>
             <div class="call-to-action">
-                <img class="icon" src="icon.png" />
+                <div class="center">
+                  <img class="icon" src="icon.png" />
+                </div>
                 <a
                     href="https://discord.com/api/oauth2/authorize?client_id=842278123352752160&permissions=2147483648&scope=applications.commands%20bot"
                     class="invite"
