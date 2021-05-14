@@ -84,7 +84,7 @@ body {
 .title {
     text-align: center;
     font-weight: 900;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .subtitle {
@@ -94,15 +94,9 @@ body {
 
 .call-to-action {
     margin-top: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-}
-
-#main_image {
-    display: block;
-    margin-left: auto;
-    margin-right: 35%;
 }
 
 .center {
@@ -116,7 +110,6 @@ body {
     height: 128px;
     border-radius: 100%;
     margin: 24px;
-    display: flex;
 }
 
 .invite {
@@ -144,10 +137,6 @@ body {
 
   .invite {
     display: block;
-  }
-
-  #main_image {
-      width: 75%;
   }
 }
 
