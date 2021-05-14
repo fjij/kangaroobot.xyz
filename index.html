@@ -7,29 +7,13 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
-        <script>
-            function toggleNavContent(ham) {
-                let bar = document.getElementById("nav-bar");
-                let content = document.getElementById("nav-content");
-                bar.classList.toggle("nav-bar-open");
-                content.classList.toggle("nav-content-open");
-                ham.classList.toggle("ham-change");
-            }
-        </script>
     </head>
     <body>
-        <div class="nav-bar" id="nav-bar">
-            <div onclick="toggleNavContent(this)" class="ham-container">
-              <div class="ham-bar1"></div>
-              <div class="ham-bar2"></div>
-              <div class="ham-bar3"></div>
-            </div>
-            <div class="nav-content" id="nav-content">
-              <a class="active" href="#">Home</a>
-              <a href="#about">About</a>
-              <a href="#commands">Commands</a>
-              <a href="https://discord.gg/3Pxarrq4NH" id="support">Support</a>
-            </div>
+        <div class="nav-bar">
+            <a class="active" href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#commands">Commands</a>
+            <a href="https://discord.gg/3Pxarrq4NH" id="support">Testnet Server</a>
         </div>
         <div class="home">
             <div class="intro">
@@ -49,16 +33,15 @@
                 >Add to Discord</a>
             </div>
         </div>
-        <div id="about" class="textbox">
+        <div id="about" class="textbox justify">
             <h1>About</h1>
             <p>
                 Kangaroo is an Ethereum tipping bot built on Layer 2. Send and recieve tokens with nearly 100x lower fees.
                 Engage and incentivize your community with crypto funds that your members can actually use.
             </p>
-
         </div>
         <div class="cmd">
-            <div id="commands" class="textbox cmd">
+            <div id="commands" class="textbox justify">
                 <h1>Commands</h1>
                 <div class="command">
                     <code>/deposit</code> <p>Show your address to deposit tokens from an external wallet. Make sure to use the correct L2.</p>

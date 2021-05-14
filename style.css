@@ -5,6 +5,7 @@ body {
     color: #ffffff;
     font-family: Lato, sans-serif;
     margin: 0px;
+    width: 100%;
 }
 
 #about {
@@ -39,8 +40,10 @@ body {
     margin: auto;
     max-width: 800px;
     padding: 24px;
+}
+
+.justify {
     text-align: justify;
-    box-sizing: border-box;
 }
 
 .textbox h1 {
@@ -103,6 +106,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 80%;
 }
 
 .center {
@@ -144,10 +148,6 @@ body {
 
   .invite {
     display: block;
-  }
-
-  #main_image {
-      width: 75%;
   }
 }
 
