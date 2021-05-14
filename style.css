@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color:  #191a1d;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    margin: 0px;
+}
+
+#about {
+    padding-bottom: 60px;
+}
+
+.home {
+    margin-bottom: 100px;
+}
+
+.cmd {
+    background-color: #2c2f33;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: px;
+}
+
+.command {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.textbox {
+    margin: auto;
+    max-width: 800px;
+    padding: 24px;
+    text-align: justify;
+}
+
+.textbox h1 {
+    font-weight: 900;
+}
+
+.textbox p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.textbox code {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.textbox .command code {
+    width: 128px;
+    flex-shrink: 0;
+}
+
+.textbox ul li {
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    margin-top: 150px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+
+.call-to-action {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    margin: 24px;
+}
+
+.invite {
+    border: none;
+    font-weight: 800;
+    padding: 18px;
+    text-decoration: none;
+    margin: 24px;
+    font-size: 24px;
+    font-family: Lato, sans-serif;
+    border-radius: 8px;
+    background-color: #EB559B;
+    color: white;
+}
+
+.invite:hover {
+    background-color: #ce4484;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-bar {
+    padding: 18px;
+    display: block;
+    font-weight: 700;
+}
+
+a {
+    color: #EB559B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ce4484;
+}
+
+.nav-bar a {
+    padding: 8px;
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.nav-bar a:hover {
+    color: #fff;
+}
+
+#support {
+    float: right;
+}
+
+#support:hover {
+    color:#ce4484;
+}
